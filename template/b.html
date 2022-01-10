@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+
+{%block body_block%}
+
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+             <div class="card-body">
+              <h5 class="card-title"></h5>
+                <p class="card-text">{{.Date}}</p>
+                  <p class="card-text">{{.Description}}</p>
+               
+          </div>
+          </div>
+        </div>
+
+    </div>
+{% endblock %}
+</html>
